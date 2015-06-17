@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- bg_style_titled.xml
+* File: 
+* Copyright © 2013, Texas Instruments Incorporated - http://www.ti.com/
+* All rights reserved.
+ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="@color/black" android:state_pressed="true"/>
+    <item android:color="@color/grey_text_color" android:state_pressed="false"></item>
+
+</selector>

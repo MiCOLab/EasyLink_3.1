@@ -1,0 +1,91 @@
+<resources>
+
+    <string name="app_name">Easylink3.1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_easylink_xsplash_screen">EasyLinkSplashScreen</string>
+    <string name="easylink_version_text">EMW</string>
+    
+    
+    <string name="config_title">EasyLink</string>
+    <string name="footer_title">DESIGNED AND DEVELOPED BY</string>
+    <string name="password_hint">Password </string>
+    <string name="ssid_label">SSID</string>
+    <string name="gatewayip">Gateway IP Address</string>
+
+    <string name="key_label">Key</string>
+    <string name="devicename_label">Device Name</string>
+    <string name="start_label_1">Start 3.0</string>
+    <string name="start_label_2">Start</string>
+    <string name="stop_label">Stop</string>
+    <string name="back_label">Back</string>
+    <string name="about_us_label">About Us</string>
+    <string name="contact_label">Contact</string>
+    <string name="about_us_desc_para_two">We continue to shatter traditional paradigms thanks largely to our dedication to and belief in quality ,communicative design.</string>
+    <string name="about_us_content">Rav</string>
+  
+    
+    <string name="alert_easylink_title">Easylink Alert</string>
+    <string name="alert_invalid_input_title">Invalid input</string>
+     <string name="alert_successfully_connected">Easylink App Connected Successfully</string>
+     <string name="alert_connection_failed">Failed to configure EMW device</string>
+       <string name="alert_connection_timeout">Connection to EMW was timed out.Please try again</string>
+      <string name="alert_successfully_failed">Failed to configure EMW device</string>
+    <string name="alert_no_network_title">No Network</string>
+    <string name="alert_invalid_password_msg">Please enter valid password</string>
+    <string name="alert_invalid_gatewayip_msg">Please enter valid Gateway IP address</string>
+    <string name="alert_invalid_ssid_mesg">Please enter valid SSID</string>
+    <string name="alert_invalid_key_mesg">Please enter valid Key exactly 16 characters</string>
+    <string name="alert_no_wifi_mesg">WiFi not available.Please check your WiFi connection.</string>
+
+    
+    <string name="config_default_gateway_val">127.0.0.1</string>
+    <string name="config_default_device_name">Device Name</string>
+	
+    <!--Utility Strings -->
+    <string name="easylink_string_ok">OK</string>
+    <string name="user_info">User Info</string>
+    
+    <!-- HomePage -->
+    <string name="devicecenter_title">My Device Center</string>
+    <string name="devicecenter_home">Home</string>
+    <string name="header_guide">Guide</string>
+    <string name="header_add">+</string>
+    <string name="config_back">Back</string>
+    <string name="www">www.mxchip.com</string>
+    <!-- Config Save -->
+    <string name="configsave_done">Done</string>
+    <string name="configsave_title">Configuration</string>
+    <string name="FirmwareUpdate">Firmware Update</string>
+    <string name="MICO_SYSTEM">MICO SYSTEM</string>
+    <string name="Device_Name">Device Name</string>
+    <string name="Bonjour">Bonjour</string>
+    <string name="RF_power_save">RF power save</string>
+    <string name="MCU_power_save">MCU power save</string>
+    <string name="Detail">Detail</string>
+    <string name="WLAN">WLAN</string>
+    <string name="WiFi">Wi-Fi</string>
+    <string name="Password">Password</string>
+    <string name="SPP_REMOTE_SERVER">SPP REMOTE SERVER</string>
+    <string name="Connect_SPP_Server">Connect SPP Server</string>
+    <string name="SPP_Server">SPP Server</string>
+    <string name="SPP_Server_Port">SPP Server Port</string>
+    <string name="MCU_IOS">MCU IOS</string>
+    <string name="Baurdrate">Baurdrate</string>
+    <!-- Detail -->
+    <string name="detail_title">Detail</string>
+    <string name="detail_right">Edit</string>
+	<string name="device_name">EMW3162 MI#42586D</string>
+	<string name="Service">Service</string>
+	<string name="ip_address">IP address</string>
+	<string name="Port">Port</string>
+	<string name="TXT_RECORD">TXT RECORD</string>
+	<string name="Hardware_Rev">Hardware Rev</string>
+	<string name="Manufacturer">Manufacturer</string>
+	<string name="MAC">MAC</string>
+	<string name="Seed">Seed</string>
+	<string name="Model">Model</string>
+	<string name="Protocol">Protocol</string>
+	<string name="MICO_OS_Rev">MICO OS Rev</string>
+	<string name="Firmware_Rev">Firmware Rev</string>
+</resources>

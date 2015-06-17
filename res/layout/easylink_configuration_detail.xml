@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/easylink_config_header_view"
+        layout="@layout/easylink_headerlayout" />
+
+    <ExpandableListView
+        android:id="@+id/config_detail_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/config_footerview"
+        android:layout_below="@+id/easylink_config_header_view"
+        android:background="@color/grey_background" />
+
+    <RelativeLayout
+        android:id="@+id/config_footerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/top_header_bg" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="@string/www"
+            android:textColor="@color/black"
+            android:textColorLink="@color/grey_text_color"
+            android:textSize="@dimen/rowitem_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>
